@@ -1,7 +1,6 @@
 import re
 
 def dial_number_2(prev_location,direction, number, count):
-
     for _ in range(number):
         if direction == "L":
             prev_location = (prev_location - 1+100) % 100
